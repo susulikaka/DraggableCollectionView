@@ -15,6 +15,11 @@
 		84853DE61D740EB5001F4666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84853DE41D740EB5001F4666 /* LaunchScreen.storyboard */; };
 		84853DF11D740EB5001F4666 /* EditableCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84853DF01D740EB5001F4666 /* EditableCollectionViewTests.m */; };
 		84853DFC1D740EB5001F4666 /* EditableCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84853DFB1D740EB5001F4666 /* EditableCollectionViewUITests.m */; };
+		84853E0C1D74108B001F4666 /* TextCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84853E0A1D74108B001F4666 /* TextCollectionViewCell.m */; };
+		84853E0D1D74108B001F4666 /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84853E0B1D74108B001F4666 /* TextCollectionViewCell.xib */; };
+		84853E111D741095001F4666 /* ImgCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84853E0F1D741095001F4666 /* ImgCollectionViewCell.m */; };
+		84853E121D741095001F4666 /* ImgCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84853E101D741095001F4666 /* ImgCollectionViewCell.xib */; };
+		84D34F2C1D7540280036BF41 /* SomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D34F2B1D7540280036BF41 /* SomeCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		84853DF71D740EB5001F4666 /* EditableCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditableCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84853DFB1D740EB5001F4666 /* EditableCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableCollectionViewUITests.m; sourceTree = "<group>"; };
 		84853DFD1D740EB5001F4666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84853E091D74108B001F4666 /* TextCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCollectionViewCell.h; sourceTree = "<group>"; };
+		84853E0A1D74108B001F4666 /* TextCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCollectionViewCell.m; sourceTree = "<group>"; };
+		84853E0B1D74108B001F4666 /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
+		84853E0E1D741095001F4666 /* ImgCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgCollectionViewCell.h; sourceTree = "<group>"; };
+		84853E0F1D741095001F4666 /* ImgCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgCollectionViewCell.m; sourceTree = "<group>"; };
+		84853E101D741095001F4666 /* ImgCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImgCollectionViewCell.xib; sourceTree = "<group>"; };
+		84D34F2A1D7540280036BF41 /* SomeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeCollectionView.h; sourceTree = "<group>"; };
+		84D34F2B1D7540280036BF41 /* SomeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				84853DDA1D740EB5001F4666 /* AppDelegate.m */,
 				84853DDC1D740EB5001F4666 /* ViewController.h */,
 				84853DDD1D740EB5001F4666 /* ViewController.m */,
+				84D34F2A1D7540280036BF41 /* SomeCollectionView.h */,
+				84D34F2B1D7540280036BF41 /* SomeCollectionView.m */,
+				84853E091D74108B001F4666 /* TextCollectionViewCell.h */,
+				84853E0A1D74108B001F4666 /* TextCollectionViewCell.m */,
+				84853E0B1D74108B001F4666 /* TextCollectionViewCell.xib */,
+				84853E0E1D741095001F4666 /* ImgCollectionViewCell.h */,
+				84853E0F1D741095001F4666 /* ImgCollectionViewCell.m */,
+				84853E101D741095001F4666 /* ImgCollectionViewCell.xib */,
 				84853DDF1D740EB5001F4666 /* Main.storyboard */,
 				84853DE21D740EB5001F4666 /* Assets.xcassets */,
 				84853DE41D740EB5001F4666 /* LaunchScreen.storyboard */,
@@ -207,6 +228,7 @@
 				TargetAttributes = {
 					84853DD21D740EB5001F4666 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X9BD7957Q6;
 					};
 					84853DEB1D740EB5001F4666 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,6 +268,8 @@
 				84853DE61D740EB5001F4666 /* LaunchScreen.storyboard in Resources */,
 				84853DE31D740EB5001F4666 /* Assets.xcassets in Resources */,
 				84853DE11D740EB5001F4666 /* Main.storyboard in Resources */,
+				84853E121D741095001F4666 /* ImgCollectionViewCell.xib in Resources */,
+				84853E0D1D74108B001F4666 /* TextCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84853DDE1D740EB5001F4666 /* ViewController.m in Sources */,
+				84853E111D741095001F4666 /* ImgCollectionViewCell.m in Sources */,
+				84D34F2C1D7540280036BF41 /* SomeCollectionView.m in Sources */,
 				84853DDB1D740EB5001F4666 /* AppDelegate.m in Sources */,
 				84853DD81D740EB5001F4666 /* main.m in Sources */,
+				84853E0C1D74108B001F4666 /* TextCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9BD7957Q6;
 				INFOPLIST_FILE = EditableCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.EditableCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +455,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9BD7957Q6;
 				INFOPLIST_FILE = EditableCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.EditableCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +529,7 @@
 				84853E021D740EB5001F4666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84853E031D740EB5001F4666 /* Build configuration list for PBXNativeTarget "EditableCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +538,7 @@
 				84853E051D740EB5001F4666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84853E061D740EB5001F4666 /* Build configuration list for PBXNativeTarget "EditableCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +547,7 @@
 				84853E081D740EB5001F4666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
